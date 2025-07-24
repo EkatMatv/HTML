@@ -1,0 +1,45 @@
+div{
+        
+    display: inline-block;        
+    width: 850px;
+    height: 500px;
+    position: relative;
+    left: 300px;
+    background-color: rgb(248, 243, 243); 
+}
+h1, p
+{
+    font-family: Arial, sans-serif;
+    position: relative;
+    left: 20px;
+    
+}
+
+.blok
+{          
+    display: inline-block;        
+    width: 820px;
+    height: 300px;
+    position: relative;
+    left: 20px;
+}
+dt
+{
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;        
+    font-style: italic;
+}
+dd
+{
+    font-size: 15px;
+    
+}
+.light
+{
+    color: #979393;
+}
+.blue
+{
+    color: #433ca0;  
+
+}
