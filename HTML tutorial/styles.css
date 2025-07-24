@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    
+    
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    border-top: 2px solid #3498db;
+    padding-top: 15px;
+    text-align: center;
+}
+
+code,
+pre {
+    background-color: #f8f9fa;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+pre {
+    padding: 10px;
+    border-left: 3px solid #3498db;
+    overflow-x: auto;
+}
+
+.tags {
+    font-style: italic;
+    color: #7f8c8d;
+}
