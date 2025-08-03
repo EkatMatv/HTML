@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    font-size: 14px;
+}
+
+.chat-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.message {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.user-info-anie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.user-info-jack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+
+}
+
+.user-name {
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.message-time {
+    font-size: 12px;
+    color: #666;
+    margin-top: 3px;
+}
+
+.annie {
+    background-color: #e99bc2;
+    padding: 15px;
+    border-radius: 15px 15px 15px 0;
+    margin: 0 15px;
+    width: 300px;
+}
+
+.jack {
+    background-color: #83a6db;
+    padding: 15px;
+    border-radius: 15px 15px 0 15px;
+    width: 300px;
+}
+
+.message-right {
+    justify-content: end;
+    position: relative;
+    right: 32px;
+
+}
+
+.message-left {
+    justify-content: start;
+}
