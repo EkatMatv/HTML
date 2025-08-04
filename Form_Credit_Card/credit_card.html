@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма ввода данных кредитной карты</title>
+    <link rel="stylesheet" href="css/style.css">        
+</head>
+<body>
+<div class="container">
+    <h2>CREDIT CARD DETAILS </h2>
+    <form action="/submit" method="POST">
+        <div class="container1">
+        <label for="card-number">Card number</label>
+        <input type="text" id="card-number" name="card-number"  
+        required placeholder="1234 5678 9012 3456" maxlength="19" title="16 цифр">
+        <label for="owner-name">Name On Card</label>
+        <input type="text" id="owner-name" name="owner-name" required placeholder="Name Surname"
+         title="Введите имя владельца карты">
+        </div>       
+        <div class="container2">
+            <div>
+            <Label for="month">Expiry Date</label><br>
+            <input type="text" id="month-date" name="month-date" required placeholder="02" 
+            title="Выберите срок действия карты">
+            <input type="text" id="year-date" name="year-date" required placeholder="2017" 
+            title="Выберите срок действия карты">
+         </div>
+         <div>   
+            <label for="cvv">CVV / CVN</label><br>
+            <input type="number" id="cvv" name="cvv" required placeholder="***" 
+            maxlength="3" title="3 цифры CVV">
+        </div>
+        </div>
+        
+    </form>
+</div>
+
+</body>
+</html>

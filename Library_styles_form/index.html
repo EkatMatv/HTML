@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI Components</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Inputs</h2>
+  <div>
+    <input class="input-component input-default" type="text" placeholder="Enter some text">
+    <input class="input-component input-valid" type="text" value="valid text">
+    <input class="input-component input-invalid" type="text" value="invalid text">
+  </div>
+
+  <h2>Check boxes</h2>
+  <div>
+    <label class="checkbox-container">
+      <input class="checkbox-input" type="checkbox">
+      Subscribe
+    </label>
+    <label class="checkbox-container">
+      <input class="checkbox-input" type="checkbox" checked>
+      Subscribe
+    </label>
+  </div>
+
+  <h2>Radio buttons</h2>
+  <div class="radio-group">
+    <span>Gender:</span>
+    <label class="radio-container">
+      <input class="radio-input" type="radio" name="gender">
+      Male
+    </label>
+    <label class="radio-container">
+      <input class="radio-input" type="radio" name="gender" checked>
+      Female
+    </label>
+  </div>
+
+  <h2>Buttons</h2>
+  <div>
+    <button class="button button-primary">Active</button>
+    <button class="button button-primary" onmouseover="this.style.opacity='0.9'">Hover</button>
+    <button class="button button-danger">Danger</button>
+    <button class="button button-danger" onmouseover="this.style.opacity='0.9'">Hover</button>
+    <button class="button button-disabled">Disabled</button>
+  </div>
+
+  <h2>Text area</h2>
+  <textarea class="textarea-default" placeholder="Enter some text..."></textarea>
+</body>
+</html>

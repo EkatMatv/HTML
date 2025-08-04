@@ -1,0 +1,122 @@
+:root {
+  --primary-color: #4a6bff;
+  --success-color: #2ecc71;
+  --danger-color: #e74c3c;
+  --disabled-color: #95a5a6;
+  --border-color: #ddd;
+  --hover-lighten: 10%;
+
+}
+
+.input-component {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  outline: none;
+  margin: 8px 0;
+}
+.input-default {
+  border: 1px solid var(--border-color);
+  padding: 10px 15px;
+  border-radius: 6px;
+  width: 200px;
+}
+
+.input-default:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(74, 107, 255, 0.2);
+}
+
+.input-valid {
+  border: 1px solid var(--success-color);
+  padding: 10px 15px;
+  border-radius: 6px;
+  width: 200px;
+  background-color: rgba(46, 204, 113, 0.05);
+}
+
+.input-invalid {
+  border: 1px solid var(--danger-color);
+  padding: 10px 15px;
+  border-radius: 6px;
+  width: 200px;
+  background-color: rgba(231, 76, 60, 0.05);
+}
+
+.checkbox-container {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  margin: 8px 15px 8px 0;
+}
+
+.checkbox-input {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  accent-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 8px 0;
+}
+
+.radio-container {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.radio-input {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  accent-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+  margin-right: 10px;
+}
+
+.button-primary {
+  background-color: var(--primary-color);
+}
+
+.button-primary:hover {
+  background-color: color-mix(in srgb, var(--primary-color), white var(--hover-lighten));
+}
+
+.button-danger {
+  background-color: var(--danger-color);
+}
+
+.button-danger:hover {
+  background-color: color-mix(in srgb, var(--danger-color), white var(--hover-lighten));
+}
+
+.button-disabled {
+  background-color: var(--disabled-color);
+  cursor: not-allowed;
+}
+
+.textarea-default {
+  border: 1px solid var(--border-color);
+  padding: 12px 15px;
+  border-radius: 6px;
+  min-height: 100px;
+  width: 80%;
+ 
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Registration Form</h1>
+
+            <div class="form-section">
+                <div class="form-group">
+                    <label for="username"></label>
+                    <img src="img/username.png" alt="user" width="30px" height="30px">
+                    <input type="text" id="username" class="input-field" placeholder="Username">
+                </div>
+
+                <div class="form-group">
+                    <label for="email"></label>
+                    <img src="img/email.png" alt="user" width="30px" height="30px">
+                    <input type="email" id="email" class="input-field" placeholder="Email adress">
+                </div>
+
+                <div class="form-group">
+                    <label for="password"></label>
+                    <img src="img/pswd.png" alt="user" width="30px" height="30px">
+                    <input type="password" id="password" class="input-field" placeholder="Password">
+
+                    <label for="confirm-password"></label>
+                    <input type="password" id="confirm-password" class="input-field" placeholder="Confirm password">
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>Personal details</h2>
+
+                <div class="personal-details-grid">
+                    <div class="form-group">
+                        <label for="first-name"></label>
+                        <input type="text" id="first-name" class="input-field" placeholder="First name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name"></label>
+                        <input type="text" id="last-name" class="input-field" placeholder="Last name">
+                    </div>
+                </div>
+
+                <div class="gender-dob-container">
+                    <div class="form-group">
+                        <label></label>
+                        <select class="input-field">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                            <option value="prefer-not-to-say">Prefer not to say</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dob"></label>
+                        <input type="date" id="dob" class="input-field">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="newsletter">
+                    <label for="newsletter">I want to receive news and special offers</label>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">I agree with the Terms and Conditions</label>
+                </div>
+
+                <button type="submit" class="submit-btn">SUBMIT</button>
+            </div>
+    </div>
+</body>
+
+</html>
